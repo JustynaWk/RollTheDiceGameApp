@@ -27,19 +27,19 @@ if ((roll4 == roll5) || (roll5 == roll6) || (roll4 == roll6))
 }
 //"przyznawanie nagród za konkretny wynik"
 
-if (total >= 16)
+if (total == 18)
 {
     Console.WriteLine("You win a new car!");
 }
-else if (total >= 10)
+else if (total == 16)
 {
     Console.WriteLine("You win a new laptop!");
 }
-else if (total == 7)
+else if (total == 17)
 {
     Console.WriteLine("You win a trip for two!");
 }
-else
+else if (total < 15)
 {
     Console.WriteLine("You win a kitten!");
 }
